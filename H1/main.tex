@@ -193,8 +193,48 @@
                         \end{flalign*}
 
                   \item $\log_4 \frac{x}{y}$
-                  \item $log_x 4y$
+                        \sol{}
+                        \begin{flalign*}
+                            \log_2 x                     & = p           \\
+                            \frac{\log_4 x}{\log_4 2}    & = p           \\
+                            \frac{\log_4 x}{\frac{1}{2}} & = p           \\
+                            \log_4 x                     & = \frac{p}{2} \\
+                        \end{flalign*}
+                        \begin{flalign*}
+                            \log_8 y                     & = q                          \\
+                            \frac{\log_4 y}{\log_4 8}    & = q                          \\
+                            \frac{\log_4 y}{\frac{3}{2}} & = q                          \\
+                            log_4 y                      & = \frac{3q}{2}               \\
+                            \\
+                            \log_4 \frac{x}{y}           & = \log_4 x - \log_4 y        \\
+                                                         & = \frac{p}{2} - \frac{3q}{2} \\
+                                                         & = \frac{p-3q}{2}
+                        \end{flalign*}
+
+                  \item $\log_x 4y$
+                        \sol{}
+                        \begin{flalign*}
+                            \log_x 4y & = \log_x 4 + \log_x y        \\
+                            \log_x 4  & = \frac{\log_2 4}{\log_2 x}  \\
+                                      & = \frac{2}{p}                \\
+                            \log_x y  & = \frac{\log_2 y}{\log_2 x}  \\
+                                      & = \frac{3q}{p}               \\
+                            \\
+                            \log_x 4y & = \frac{2}{p} + \frac{3q}{p} \\
+                                      & = \frac{2+3q}{p}
+                        \end{flalign*}
+
                   \item $x^2y$
+                        \sol{}
+                        \begin{flalign*}
+                            \log_2 x^2y & = \log_2 x^2 + \log_2 y \\
+                                        & = 2\log_2 x + \log_2 y  \\
+                                        & = 2p + 3q               \\
+                            \\
+                            x^2y        & = 2^{2p + 3q}           \\
+                                        & = 2^{2p}2^{3q}          \\
+                                        & = 4^p8^q
+                        \end{flalign*}
               \end{enumerate}
     \end{enumerate}
     \chapter{Equations and Inequalities}
